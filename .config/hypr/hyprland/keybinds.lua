@@ -223,3 +223,7 @@ create_bind(
         " -a 'Shell' -A 'Test1=I got it!' -A 'Test2=Another action'"
     )
 )
+
+-- Move Ws to Monitor
+create_bind(vars.kbMoveWsToMonitorLeft, hl.dsp.workspace.move({ monitor = "l" }))
+create_bind(vars.kbMoveWsToMonitorRight, hl.dsp.workspace.move({ monitor = "r" }))

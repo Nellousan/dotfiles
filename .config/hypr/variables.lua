@@ -76,6 +76,9 @@ return {
     kbNextWsGroup              = "CTRL + SUPER + mouse_down",
     kbPrevWsGroup              = "CTRL + SUPER + mouse_up",
 
+    kbMoveWsToMonitorLeft      = "SUPER + X",
+    kbMoveWsToMonitorRight     = "SUPER + C",
+
     -- Window Group
     kbWindowCycleNext          = "ALT + TAB",
     kbWindowCyclePrev          = "SHIFT + ALT + TAB",
@@ -92,7 +95,7 @@ return {
     kbWindowIncreaseHeight     = { "SUPER + SHIFT + Equal", "SUPER + ALT + Down" },
 
     kbMoveWindow               = "SUPER + Z",
-    kbResizeWindow             = "SUPER + X",
+    kbResizeWindow             = "SUPER + R",
     kbCenterWindow             = "CTRL + SUPER + Backslash",
     kbNormalizeWindow          = "CTRL + SUPER + SHIFT + Backslash",
     kbWindowPip                = "SUPER + SHIFT + Backslash",
@@ -100,20 +103,20 @@ return {
     kbWindowFullscreen         = "SUPER + F",
     kbWindowBorderedFullscreen = "SUPER + ALT + F",
     kbToggleWindowFloating     = "SUPER + SHIFT + Space",
-    kbCloseWindow              = "SUPER + Q",
+    kbCloseWindow              = "SUPER + SHIFT + Q",
 
     -- Special workspaces toggles
     kbSpecialWs                = "SUPER + S",
     kbSystemMonitorWs          = "CTRL + SHIFT + Escape",
-    kbMusicWs                  = "SUPER + M",
-    kbCommunicationWs          = "SUPER + O",
-    kbTodoWs                   = "SUPER + R",
+    kbMusicWs                  = "SUPER + W",
+    kbCommunicationWs          = "SUPER + Q",
+    kbTodoWs                   = "SUPER + E",
 
     -- Apps
-    kbTerminal                 = "SUPER + T",
-    kbBrowser                  = "SUPER + W",
-    kbEditor                   = "SUPER + C",
-    kbFileExplorer             = "SUPER + E",
+    kbTerminal                 = "SUPER + Return",
+    kbBrowser                  = "SUPER + SHIFT +  W",
+    kbEditor                   = "SUPER + SHIFT +  C",
+    kbFileExplorer             = "SUPER + SHIFT + E",
     kbAudioSettings            = "CTRL + ALT + V",
 
     -- Utilities

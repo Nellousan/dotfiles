@@ -24,12 +24,35 @@ hl.config({
             natural_scroll = false,
         },
     },
+    misc = {
+        vrr = 1,
+    },
+})
+
+-- Monitors
+hl.monitor({
+    output = "DP-1",
+    disabled = false,
+    mode = "1920x1080@143.85Hz",
+    position = "-660x-30",
+    scale = 1,
+    cm = "srgb",
+})
+hl.monitor({
+    output = "DP-2",
+    disabled = false,
+    mode = "1920x1080@60.00Hz",
+    position = "-2580x-30",
+    scale = 1,
+    cm = "srgb",
+})
+hl.monitor({
+    output = "HDMI-A-1",
+    disabled = false,
+    mode = "1920x1080@60.00Hz",
+    position = "1260x-30",
+    scale = 1,
+    cm = "srgb",
 })
 
 -- Keybinds
-hl.unbind("SUPER + T")
-hl.bind("SUPER + Return", hl.dsp.exec_cmd("foot"))
-hl.unbind("SUPER + E")
-hl.bind("SUPER + SHIFT + E", hl.dsp.exec_cmd("thunar"))
-hl.unbind("SUPER + Q")
-hl.bind("SUPER + SHIFT + Q", hl.dsp.window.close())
